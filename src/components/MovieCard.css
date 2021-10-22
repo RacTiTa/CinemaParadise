@@ -1,0 +1,48 @@
+.title-box {
+  text-align: center;
+  padding-bottom: 5px;
+  max-width: 230px;
+  color: #330067;
+  font-weight: bold;
+}
+
+.movie-image {
+  cursor: pointer;
+  padding-bottom: 5px;
+  height: 350px;
+  width: 230px;
+  z-index: 0;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-width: 2px;
+  border-color: #330067;
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.circular-progress {
+  color: white;
+  position: absolute;
+  bottom: 70px;
+  left: 180px;
+  z-index: 1;
+}
+.circular-progress {
+  border-radius: 9999px;
+  background-color: black;
+  bottom: 30px;
+}
+.container-circular-progress {
+  position: absolute;
+  bottom: -29px;
+  left: 10px;
+}
+.inside-movie-container {
+  position: relative;
+}
